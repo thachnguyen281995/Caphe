@@ -281,7 +281,7 @@ button {
   margin:0 auto;
   left:0;
   right:0;
-  bottom:-45px;
+  /* bottom:0; */
   animation:scroll 3s infinite;
 
 }
@@ -715,7 +715,8 @@ button {
   .container{
    margin-left:1rem;
    margin-right:1rem;
-    
+   
+  
   }
   .blog__image{
     width:250px;
@@ -733,6 +734,9 @@ button {
     flex-direction: column;
     row-gap:1rem;
   }
+ .blog__content{
+   grid-template-columns: 1fr;
+ }
   
  
 }
