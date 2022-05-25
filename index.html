@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./style.css">
+
+        <title>Happy Cup Coffee</title>
+    </head>
+    <body>
+        <!--==================== LOADER ====================-->
+       
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img happycup/logo.png" alt="" class="nav__logo-img">
+                    
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Product</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#premium" class="nav__link">Premium</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#blog" class="nav__link">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                </div>
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main>
+            <!--==================== HOME ====================-->
+            <section class="home grid" id="home">
+                <div class="home__container">
+                    <div class="home__content container">
+                        <h1 class="home__title">
+                            “Chúng tôi thương hạt cà phê quê mình lắm!” <span>.</span>
+                        </h1>
+                        <p class="home__description">
+                           Tinh Hoa Cafe Việt.
+                        </p>
+                        
+                        <!-- <div class="home__data">
+                            <div class="home__data-group">
+                                <h2 class="home__data-number">120K</h2>
+                                <h3 class="home__data-title">Testimonials</h3>
+                                <p class="home__data-home__description">
+                                    Testimonials from various customers who trust us.
+                                </p>
+                            </div>
+                            
+                            <div class="home__data-group">
+                                <h2 class="home__data-number">340+</h2>
+                                <h3 class="home__data-title">Exclusive Product</h3>
+                                <p class="home__data-home__description">
+                                    Premium preparation with quality ingredients.
+                                </p>
+                            </div>
+                            
+                            <div class="home__data-group">
+                                <h2 class="home__data-number"></h2>
+                                <h3 class="home__data-title"></h3>
+                                <p class="home__data-home__description">
+                                    
+                                </p>
+                            </div>
+                        </div> -->
+                    
+                    </div>
+                    <a href="#specialty">
+                        <img src="./img/scroll.png" alt="" class="home__scroll">
+                    </a>
+                </div>
+                <img src="./img happycup/blog3.png" alt="" class = "home__img">
+            </section>
+
+            <!--==================== ESPECIALTY ====================-->
+            <div class="specialty section container" id="specialty">
+                <div class="speacialty__container">
+                    <div class="specialty__box">
+                        <h2 class="section__title">
+                            Thật háo hức khi được thả trôi theo những cung bậc tuyệt diệu, đa hương, đa phương mà hạt cà phê mang lại!
+                        </h2>
+                        <div>
+                            <a href="#" class="button specialty__button">See more</a>
+                        </div>
+                    </div>
+                    <div class="specialty__category">
+                            <div class="specialty__group specialty__line">
+                                <img src="./img/specialty1.png" alt="" class="specialty__img">
+                                <h3 class="specialty__title">Cà phê chọn lọc</h3>
+                                <p class="specialty__description">
+                                    Chúng tôi chọn lọc những loại cà phê hảo hạng nhất, cho hương vị đích thực.
+                                </p>
+                            </div>
+
+                            <div class="specialty__group specialty__line">
+                                <img src="./img/specialty2.png" alt="" class="specialty__img">
+                                <h3 class="specialty__title">Món ăn sáng</h3>
+                                <p class="specialty__description">
+                                   Thưởng thức cà phê của bạn với một số món ăn sáng
+                                </p>
+                            </div>
+
+                            <div class="specialty__group ">
+                                <img src="./img/specialty3.png" alt="" class="specialty__img">
+                                <h3 class="specialty__title">Thưởng thức tại nhà</h3>
+                                <p class="specialty__description">
+                                    Thưởng thức cà phê ngay tại nhà .
+                                </p>
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                <div class="products__container container">
+                    <h2 class="section__title">
+                        Dòng cà phê được chúng mình tạo ra dành riêng cho các bạn gu nhẹ, ngọt ngào ít đắng nhưng vẫn đủ caffeine để giúp bạn tỉnh táo!
+                    </h2>
+                    <ul class="products__filters">
+                        <li class="products__item products__line active-product"data-filter=".delicacies">
+                            <h3 class="products__title">Best Seller</h3>
+                            <!-- <span class="products__stock">3 products</span> -->
+                        </li>
+                        <li class="products__item products__line"data-filter=".coffee">
+                            <h3 class="products__title">Hot Coffee</h3>
+                            <!-- <span class="products__stock">4 products</span> -->
+                        </li>
+                        <li class="products__item products__line"data-filter=".cake">
+                            <h3 class="products__title">Ice Drink</h3>
+                            <!-- <span class="products__stock">4 products</span> -->
+                        </li>
+                    </ul>
+                    <div class="products__content grid">
+                         <!--======= Delicacies  =======-->
+                            <article class="products__card delicacies">
+                                <div class="products__shape">
+                                    <img src="./img happycup/h3.png" alt="" class="products__img">
+                                </div>
+                                <div class="products__data">
+                                    <h2 class="products__price">150.000</h2>
+                                    <h3 class="products__name">Ấn Trà</h3>
+
+                                    <div class="button products__button">
+                                        <i class="bx bx-shopping-bag"></i>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="products__card delicacies">
+                                <div class="products__shape">
+                                    <img src="./img happycup/h1.png" alt="" class="products__img">
+                                </div>
+                                <div class="products__data">
+                                    <h2 class="products__price">50.000</h2>
+                                    <h3 class="products__name">Phin Sữa</h3>
+
+                                    <div class="button products__button">
+                                        <i class="bx bx-shopping-bag"></i>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="products__card delicacies">
+                                <div class="products__shape">
+                                    <img src="./img happycup/h2.png" alt="" class="products__img">
+                                </div>
+                                <div class="products__data">
+                                    <h2 class="products__price">50.000</h2>
+                                    <h3 class="products__name">Cà Phê Muối</h3>
+
+                                    <div class="button products__button">
+                                        <i class="bx bx-shopping-bag"></i>
+                                    </div>
+                                </div>
+                            </article>
+                            
+                         <!--======= Coffee =======-->
+                         <article class="products__card coffee">
+                            <div class="products__shape">
+                                <img src="./img/coffee1.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">18.000</h2>
+                                <h3 class="products__name">Espresso</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="products__card coffee">
+                            <div class="products__shape">
+                                <img src="./img/coffee2.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">20.000</h2>
+                                <h3 class="products__name">Milk Espresso</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="products__card coffee">
+                            <div class="products__shape">
+                                <img src="./img/coffee3.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">30.000</h2>
+                                <h3 class="products__name">Capuchino</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="products__card coffee">
+                            <div class="products__shape">
+                                <img src="./img/coffee4.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">35.000</h2>
+                                <h3 class="products__name">Mocha</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        
+                         <!--======= Cake =======-->
+                         <article class="products__card cake">
+                            <div class="products__shape">
+                                <img src="./img happycup/Ca-phe-da.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">15.000</h2>
+                                <h3 class="products__name">Cà phê đen đá</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="products__card cake">
+                            <div class="products__shape">
+                                <img src="./img happycup/oreo_da_xay-removebg-preview.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">35.000</h2>
+                                <h3 class="products__name">Oreo đá xay</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="products__card cake">
+                            <div class="products__shape">
+                                <img src="./img happycup/caphe_sua-removebg-preview.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">17.000</h2>
+                                <h3 class="products__name">Cà phê sữa đá</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="products__card cake" >
+                            <div class="products__shape">
+                                <img src="./img happycup/soda_chanh_leo-removebg-preview.png" alt="" class="products__img">
+                            </div>
+                            <div class="products__data">
+                                <h2 class="products__price">28.000</h2>
+                                <h3 class="products__name">Soda chanh leo</h3>
+
+                                <div class="button products__button">
+                                    <i class="bx bx-shopping-bag"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALITY ====================-->
+            <section class="quality section" id="premium">
+                <div class="quality__container container">
+                    <h2 class="section__title">
+                        Cà phê – Mang đến hương vị đầy cảm xúc!
+                    </h2>
+                    <div class="quality__content grid">
+                        <div class="quality__image">
+                            <img src="./img happycup/happcup coffee.png" alt="" class="quality__img-big">
+                            <!-- <img src="./assets/img happycup/quality 1.jpg" alt="" class="quality__img-small"> -->
+                        </div>
+                        <div class="quality__data">
+                            <h1 class="quality__title">“Chờ đợi là hạnh phúc”</h1>
+                            <!-- <h2 class="quality__price">$94.99</h2>
+                            <span class="quality__special">Especial Price</span> -->
+                            <p class="quality__description">
+                                Điều đó hiển nhiên đúng với cà phê pha phin truyền thống Việt Nam! 
+                                Cái cảm giác ngồi ngắm từng giọt cà phê rơi xuống những cãi lỗ li ti khiến thời gian như chậm lại! bao nhiêu hối hả, xô bồ ngoài kia bỗng dưng biến mất…
+                            </p>
+                        <div class="quality__buttons">
+                            <button class="button">
+                                Buy Now
+                            </button>
+                            <a href="#" class="quality__button">
+                                See more
+                                <i class="bx bx-right-arrow-alt"></i>
+                            </a>
+                        </div>    
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logo section">
+                <div class="logo__container container grid">
+                    <img src="./img happycup/h1.png" alt="" class="logo__img">
+                    <img src="./img happycup/h3.png" alt="" class="logo__img">
+                    <img src="./img happycup/h7-removebg-preview.png" alt="" class="logo__img">
+                    <img src="./img happycup/h5-removebg-preview.png" alt="" class="logo__img">
+                    <img src="./img happycup/h6-removebg-preview.png" alt="" class="logo__img">
+
+                </div>
+            </section>
+
+            <!--==================== BLOG ====================-->
+            <section class="blog section" id="blog">
+                <div class="blog__container container">
+                    <h2 class="section__title">
+                       Blogs Coffee 
+                    </h2>
+                    <div class="blog__content grid">
+                        <article class="blog__card">
+                            <div class="blog__image">
+                                <img src="./img happycup/blog happycup.jpg" alt="" class="blog__img">
+                                <a href="#" class="blog__button">
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+                            </div>
+
+                            <div class="blog__data">
+                                <h2 class="blog__title">
+                                    HAPPY CUP COFFEE 
+                                </h2>
+                                <p class="blog__description">
+                                    359 Trường Chinh, Chánh Lộ, Quảng Ngãi.
+                                </p>
+                                <div class="blog__footer">
+                                    <div class="blog__reaction">
+                                        <i class="bx bx-comment">
+                                            <span>12</span>
+                                        </i>
+                                    </div>
+                                    <div class="blog__reaction">
+                                        <i class="bx bx-show">
+                                            <span>76,5K</span>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        
+                        <article class="blog__card">
+                            <div class="blog__image">
+                                <img src="./img happycup/quality 1.jpg" alt="" class="blog__img">
+                                <a href="#" class="blog__button">
+                                    <i class="bx bx-right-arrow-alt"></i>
+                                </a>
+                            </div>
+
+                            <div class="blog__data">
+                                <h2 class="blog__title">
+                                    Một vài chiếc capuchiano đậm đà cho ngày mưa
+                                </h2>
+                                <p class="blog__description">
+                                    Hãy đối xử với chính bản thân một cách tử tế nhất, vì không ai có thể gây tổn thương đến bạn nếu không được bạn cho phép!
+                                </p>
+                                <div class="blog__footer">
+                                    <div class="blog__reaction">
+                                        <i class="bx bx-comment">
+                                            <span>45</span>
+                                        </i>
+                                    </div>
+                                    <div class="blog__reaction">
+                                        <i class="bx bx-show">
+                                            <span>365K</span>
+                                        </i>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="blog__card">
+                            <div class="blog__image">
+                                
+                                <video width="800"  controls class="video__container">
+                                    <source src="./img happycup/video happycup.mp4" type="video/mp4">
+                                    
+                                </video>
+                            </div>
+                            
+                                
+                            
+                             
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container">
+                <h1 class="footer__title">Happy Cup Coffee .</h1>
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <p class="footer__description">
+                            Subscribe to our newsletter
+                        </p>
+                        <div class="footer__newsletter">
+                            <input type="email" placeholder="Your email address" class="footer__input">
+                            <button class="footer__button">
+                                <i class="bx bx-right-arrow-alt"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Địa Chỉ</h2>
+                            <p class="footer__information">
+                                359 Trường Chinh, Chánh Lộ, Quảng Ngãi.
+                                  
+    
+                            </p>      
+                    </div>
+    
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Liên Hệ</h2>
+                            <p class="footer__information">
+                                0969.380.380 <br>
+                                
+                            </p>                  
+                    </div>
+    
+                    <div class="footer__data">
+                        <h2 class="footer__subtitle">Giờ làm việc</h2>
+                            <p class="footer__information">
+                                Thứ Hai - Chủ Nhật <br>
+                                8AM - 10PM
+                            </p>                   
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                </ul>
+                <span class="footer__copy">
+                    
+                </span>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#home" class="scroll-link top-link">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="./mixtup.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./main.js"></script>
+    </body>
+</html>
