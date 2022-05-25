@@ -703,7 +703,7 @@ button {
 
 
 /* Show Scroll Up*/
- .show-link{
+.show-link{
   visibility:visible;
   z-index: 100;
   
@@ -718,12 +718,12 @@ button {
    
   
   }
-  .blog__image{
+  .blog__card{
     width:250px;
   
   }
   .blog__button{
-    padding:4px;
+    padding:1px;
   }
   .video__container{
     width: 250px;
@@ -736,6 +736,7 @@ button {
   }
  .blog__content{
    grid-template-columns: 1fr;
+   padding:0 20px;
  }
   
  

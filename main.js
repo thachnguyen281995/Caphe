@@ -61,7 +61,7 @@ linkProducts.forEach(e => e.addEventListener('click',activeProduct))
 /* Link active products */ 
 
 /*=============== SHOW SCROLL UP ===============*/ 
-const topLink = $('.top-link');
+const topLink = document.querySelector('.top-link')
 window.addEventListener('scroll', function(){
     const scrollHeight = window.pageYOffset
     if(scrollHeight > 500){
