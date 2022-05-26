@@ -719,7 +719,7 @@ button {
   
   }
   .blog__card{
-    width:250px;
+    width:230px;
   
   }
   .blog__button{
@@ -736,7 +736,7 @@ button {
   }
  .blog__content{
    grid-template-columns: 1fr;
-   padding:0 20px;
+   
  }
   
  
@@ -758,7 +758,7 @@ button {
     padding-bottom: 3rem;
   }
   .blog__content{
-    grid-template-columns: 450px;
+    grid-template-columns: 1fr;
     justify-content:center;
   }
   .footer__newsletter{
