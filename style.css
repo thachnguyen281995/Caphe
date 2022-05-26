@@ -719,7 +719,7 @@ button {
   
   }
   .blog__card{
-    width:230px;
+    grid-template-columns: 1fr;
   
   }
   .blog__button{
