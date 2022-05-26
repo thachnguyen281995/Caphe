@@ -173,11 +173,14 @@ button {
     transition: .3s;
   }
   .blog__content{
-    grid-template-columns: 450px;
+    grid-template-columns: 300px;
     justify-content:center;
+    
+    
   }
+ 
   .video__container{
-    width: 450px;
+    width: 300px;
 
   }
 }
